@@ -1,0 +1,20 @@
+{
+    "name": "betelgeyzua/format-date",
+    "description": "Otus home work #4",
+    "keywords": ["library", "php"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergey Krasilnikov",
+            "email": "sekrasilnikov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Betelgeyzua\\FormatDate\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
