@@ -17,10 +17,10 @@ An example usage is shown below:
 ```php
 use Betelgeyzua\FormatDate\DateFormatter;
 
-$formatter = new DateFormatter() // Create object DateFormatter;
+$formatter = new DateFormatter(); // Create object DateFormatter;
 $formatter->instance(); // returns object Betelgeyzua\FormatDate
 
-$date_in_word = $formatter->instance()->dateInWords('02.07.2022') // returns 02 Июля 2022 default language RU
-$date_in_word = $formatter->instance()->dateInWords('02.07.2022', 'ua') // returns 02 Липня 2022
-$date_in_word = $formatter->instance()->dateInWords('02.07.2022', 'en') // returns 02 July 2022
+$date_in_word = $formatter->instance()->dateInWords('02.07.2022'); // returns 02 Июля 2022 default language RU
+$date_in_word = $formatter->instance()->dateInWords('02.07.2022', 'ua'); // returns 02 Липня 2022
+$date_in_word = $formatter->instance()->dateInWords('02.07.2022', 'en'); // returns 02 July 2022
 ```
